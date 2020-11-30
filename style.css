@@ -7,9 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-
-/* Creates background for navigation and logo area */
-
+/* Start background for navigation and logo area */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -21,9 +19,8 @@ header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
-/* Handles navigation links in top-right of page */
-
+/* End of top background */
+/* Start navigation links in top-right of page */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -40,7 +37,7 @@ nav  ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* End of Navigation */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -49,9 +46,7 @@ a {
 p {
     font-size: 16px;
 }
-
-/* Creates a background image for top part of page */
-
+/* Start a background image for top part of page */
 .meeting {
     height: 800px;
     width: 100%;
@@ -60,6 +55,7 @@ p {
     background-size: cover;
     background-position: center;
 }
+/* End background image */
 
 .float-left {
     float: left;
@@ -76,9 +72,7 @@ main {
     display: inline-block;
     margin-left: 20px;
 }
-
-/* Right-side content part of webpage */
-
+/* Start Right-side content part of webpage */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -107,9 +101,8 @@ main {
     margin: 10px auto;
     max-width: 150px;
 }
-
-/* Left-side content part of webpage */
-
+/* End right-side content parg of webpage */
+/* Start Left-side content part of webpage */
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -127,9 +120,8 @@ main {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-/* Small part at bototm of webpage */
-
+/* End Left-side content part of webpage */
+/* Start bottom of webpage */
 footer {
     padding: 30px;
     clear: both;
@@ -140,3 +132,4 @@ footer {
 footer h2 {
     font-size: 20px;
 }
+/* End bottom part of webpage */
